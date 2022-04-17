@@ -1,0 +1,14 @@
+# conda activate envs
+alias ca='conda activate'
+
+# jupyter support
+alias lab='~/miniconda3/envs/jupyter_lab/bin/jupyter lab'
+
+# NeoVim
+alias n='nvim'
+
+# Useful Script
+alias ipykernel='. ~/scripts/conda_install_ipykernel.sh'
+
+alias lg='l | grep'
+
