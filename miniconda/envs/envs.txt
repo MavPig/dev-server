@@ -1,0 +1,5 @@
+main
+nvim
+jupyter_lab
+poetry
+nodejs
