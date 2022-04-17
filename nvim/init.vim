@@ -140,20 +140,6 @@ let g:blamer_show_in_insert_modes = 0
 let NERDTreeShowHidden=1
 let g:NERDTreeGitStatusShowIgnored = 1
 
-if system('uname -a | egrep [Mm]icrosoft') != ''
-	let g:clipboard = {
-	  \   'name': 'WSL_Clipboard',
-          \   'copy': {
-          \      '+': 'win32yank.exe -i --crlf',
-          \      '*': 'win32yank.exe -i --crlf',
-          \    },
-          \   'paste': {
-          \      '+': 'win32yank.exe -o --lf' ,
-          \      '*': 'win32yank.exe -o --lf',
-          \   },
-          \   'cache_enabled': 1,
-          \ }
-endif
 " ============================================================================================================================
 " =================== Internal Shortcuts which do not involve any external plugins ===========================================
 
