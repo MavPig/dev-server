@@ -27,3 +27,14 @@ then
 fi
 done
 
+if [[ -e ~/miniconda3/envs/nodejs/bin/node ]]
+then
+	ln -s ~/miniconda3/envs/nodejs/bin/node ~/.local/bin/node
+fi
+
+if [[ -e ~/miniconda3/envs/nodejs/bin/npm ]]
+then
+	ln -s ~/miniconda3/envs/nodejs/bin/npm ~/.local/bin/npm
+fi
+
+
